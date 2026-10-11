@@ -1,0 +1,63 @@
+ex2: 
+reponse aux questions de refluxion 
+<strong> :indique une importance particulière,
+tandis que <b> met le texte en gras sans lui donner nécessairement une importance 
+        particulière.
+
+<br> fait un saut de ligne sans créer un nouveau paragraphe. 
+Deux balises <p> créent deux paragraphes distincts, avec leur propre espacement.-->
+
+
+ex3:  
+Schéma de la page:                                               
+
+
+                                                  header
+
+                                               Titre du club
+
+                                           nav : Accueil · Projets
+---------------------------------------------------------------------------------------------------------------------------
+
+                                                main
+---------------------------------------------------------------------------------------------------------------------------
+
+     section
+                                                                    aside 
+
+     article    
+
+
+
+                                               footer
+ex4:
+Si l'image ne charge pas, le navigateur peut afficher le texte alternatif de alt.
+
+alt fournit une description de remplacement et améliore l'accessibilité.
+
+width et height définissent les dimensions de l'image.
+ex5:LISTES :
+pourquoi préférer list-style-type en CSS à l'attribut type ?
+
+Parce que CSS sépare la présentation du contenu HTML, 
+facilite la modification du style et permet d'appliquer le même style à plusieurs listes.
+ type existe encore sur <ol>,
+ mais CSS est généralement préférable pour la présentation.
+
+ex6: les tableaux:
+1. Combien de balises <td> ou <th> contient la 4 ligne ? Pourquoi ?
+
+La 4 ligne logique du tableau correspond à la ligne 10h15 – 11h45 si on compte les lignes de contenu après les deux lignes d'en-tête. Elle contient 3 cellules : Horaire, Mardi et Mercredi. La cellule Lundi n'est pas répétée parce que rowspan="2" fusionne la cellule « Langages Web » sur deux lignes.
+
+2. Pourquoi faut-il utiliser un tableau pour un emploi du temps plutôt que pour la mise en page d'un site ?
+
+Un tableau convient aux données organisées en lignes et colonnes, comme un emploi du temps. Pour la mise en page générale d'un site, on utilise plutôt CSS avec Flexbox ou Grid.
+
+3. Quelle balise peut légender le tableau pour l'accessibilité ?
+
+La balise <caption> : elle donne un titre ou une description au tablea
+
+
+3.3  Pourquoi main doit-il être unique ?
+
+La balise <main> représente le contenu principal de la page. Il ne doit normalement y avoir qu'un seul élément <main> visible par page.
